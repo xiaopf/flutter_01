@@ -3,6 +3,7 @@ import './demo/ListViewDemo.dart';
 import './demo/Hello.dart';
 import './demo/DrawerDemo.dart';
 import './demo/BottomNavigationBarDemo.dart';
+import './demo/BasicDemo.dart';
 
 void main () {
   runApp(App());
@@ -55,7 +56,7 @@ class Home extends StatelessWidget {
         ),
         body:TabBarView(
           children: <Widget>[
-            Hello(),
+            BasicDemo(),
             ListViewDemo(),
             Icon(Icons.local_dining,size:128.0, color: Colors.black12),
           ],
